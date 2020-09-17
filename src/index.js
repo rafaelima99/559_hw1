@@ -1,9 +1,7 @@
 function setup() {
   var canvas = document.getElementById("myCanvas");
   var slider1 = document.getElementById("slider1");
-  slider1.value = 0;
   var slider2 = document.getElementById("slider2");
-  slider2.value = 0;
   function draw() {
     var context = canvas.getContext("2d");
     canvas.width = canvas.width;
